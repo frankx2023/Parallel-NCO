@@ -1,0 +1,108 @@
+{
+  "selection_source": "https://arxiv.org/pdf/2208.10227",
+  "table": 7,
+  "graphs": [
+    {
+      "graph": "G22",
+      "n": 2000,
+      "edges": 19990,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G22"
+    },
+    {
+      "graph": "G23",
+      "n": 2000,
+      "edges": 19990,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G23"
+    },
+    {
+      "graph": "G24",
+      "n": 2000,
+      "edges": 19990,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G24"
+    },
+    {
+      "graph": "G25",
+      "n": 2000,
+      "edges": 19990,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G25"
+    },
+    {
+      "graph": "G26",
+      "n": 2000,
+      "edges": 19990,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G26"
+    },
+    {
+      "graph": "G35",
+      "n": 2000,
+      "edges": 11778,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G35"
+    },
+    {
+      "graph": "G36",
+      "n": 2000,
+      "edges": 11766,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G36"
+    },
+    {
+      "graph": "G37",
+      "n": 2000,
+      "edges": 11785,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G37"
+    },
+    {
+      "graph": "G38",
+      "n": 2000,
+      "edges": 11779,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G38"
+    },
+    {
+      "graph": "G48",
+      "n": 3000,
+      "edges": 6000,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G48"
+    },
+    {
+      "graph": "G49",
+      "n": 3000,
+      "edges": 6000,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G49"
+    },
+    {
+      "graph": "G50",
+      "n": 3000,
+      "edges": 6000,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G50"
+    },
+    {
+      "graph": "G55",
+      "n": 5000,
+      "edges": 12498,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G55"
+    },
+    {
+      "graph": "G58",
+      "n": 5000,
+      "edges": 29570,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G58"
+    },
+    {
+      "graph": "G60",
+      "n": 7000,
+      "edges": 17148,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G60"
+    },
+    {
+      "graph": "G63",
+      "n": 7000,
+      "edges": 41459,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G63"
+    },
+    {
+      "graph": "G70",
+      "n": 10000,
+      "edges": 9999,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G70"
+    }
+  ]
+}

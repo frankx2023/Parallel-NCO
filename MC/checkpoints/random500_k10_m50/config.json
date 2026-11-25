@@ -1,0 +1,50 @@
+{
+  "model": {
+    "dropout": 0.1,
+    "hidden_size": 64
+  },
+  "queries": {
+    "num_directions": 50,
+    "initial_log_variance": -2.772588722239781,
+    "kkt_regularization": 0.001,
+    "constrained_tolerance": 1e-07,
+    "constrained_max_iterations": 10000
+  },
+  "training": {
+    "method": "queries",
+    "model_name": "random500_k10_m50",
+    "seed": 42,
+    "num_epochs": 50,
+    "batch_size": 4,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "warmup_epochs": 20,
+    "cosine_eta_min": 5e-05,
+    "sharpness": 1.0,
+    "scaling_mode": "sigmoid_only",
+    "lambda_recon": 1.0,
+    "entropy_weight": 0.005,
+    "entropy_cutoff_epoch": 30,
+    "fw_target_eps": 0.001,
+    "scaling_factors": [
+      1.0
+    ],
+    "fw_greedy_init": false,
+    "noise": {
+      "init_std": 0.0,
+      "final_std": 0.0,
+      "schedule": "cosine"
+    },
+    "data": {
+      "dataset_type": "random",
+      "degree_distribution": "uniform",
+      "red_n": 500,
+      "blue_n": 1000,
+      "num_graphs": 100,
+      "k_list": [
+        10
+      ]
+    }
+  },
+  "coverage_backend": "dense"
+}

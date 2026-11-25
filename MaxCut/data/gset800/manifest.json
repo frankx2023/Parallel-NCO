@@ -1,0 +1,60 @@
+{
+  "selection_source": "https://arxiv.org/pdf/2208.10227",
+  "table": 7,
+  "graphs": [
+    {
+      "graph": "G1",
+      "n": 800,
+      "edges": 19176,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G1"
+    },
+    {
+      "graph": "G2",
+      "n": 800,
+      "edges": 19176,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G2"
+    },
+    {
+      "graph": "G3",
+      "n": 800,
+      "edges": 19176,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G3"
+    },
+    {
+      "graph": "G4",
+      "n": 800,
+      "edges": 19176,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G4"
+    },
+    {
+      "graph": "G5",
+      "n": 800,
+      "edges": 19176,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G5"
+    },
+    {
+      "graph": "G14",
+      "n": 800,
+      "edges": 4694,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G14"
+    },
+    {
+      "graph": "G15",
+      "n": 800,
+      "edges": 4661,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G15"
+    },
+    {
+      "graph": "G16",
+      "n": 800,
+      "edges": 4672,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G16"
+    },
+    {
+      "graph": "G17",
+      "n": 800,
+      "edges": 4667,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G17"
+    }
+  ]
+}

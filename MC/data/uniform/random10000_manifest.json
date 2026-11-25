@@ -1,0 +1,18 @@
+{
+  "sets": 10000,
+  "elements": 20000,
+  "instances_per_split": 100,
+  "weights": "integer uniform 1..100",
+  "set_sizes": "integer uniform 10..30",
+  "membership": "uniform without replacement, independent per set",
+  "splits": {
+    "train": {
+      "seed": 1000042,
+      "path": "/home/frank/FW_NCO/MCFW/data/uniform/max_covering_10000_train.pkl"
+    },
+    "test": {
+      "seed": 1000043,
+      "path": "/home/frank/FW_NCO/MCFW/data/uniform/max_covering_10000_test.pkl"
+    }
+  }
+}

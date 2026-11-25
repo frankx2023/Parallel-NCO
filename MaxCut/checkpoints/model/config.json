@@ -1,0 +1,29 @@
+{
+  "output": "MaxCut/results/mix512_20260921/direct_unsigned_batch",
+  "setup": {
+    "family": "unsigned",
+    "sizes": [
+      250,
+      500,
+      1000
+    ],
+    "schedule": "batch",
+    "loss": "kkt",
+    "point": "mean",
+    "layers": 512
+  },
+  "epochs": 30,
+  "graphs_per_epoch": 64,
+  "m": 16,
+  "seed": 0,
+  "lr": 0.001,
+  "model_config": {
+    "architecture": "gnn",
+    "representation": "parity",
+    "width": 32,
+    "layers": 512,
+    "normalization": "row",
+    "max_queries": 1000
+  },
+  "selection": "unchanged 40 generated validation graphs; best-of-50 normalized cut; initial eligible"
+}

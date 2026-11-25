@@ -1,0 +1,10 @@
+# Versions recorded from the experiment environment; install a suitable CUDA PyTorch build.
+torch==2.12.1
+torch-geometric==2.8.0.post1
+numpy==2.5.2
+scipy==1.18.0
+networkx==2.8.8
+PyYAML==6.0.3
+numba==0.67.0
+requests==2.34.2
+tqdm==4.70.0

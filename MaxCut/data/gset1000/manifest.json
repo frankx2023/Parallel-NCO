@@ -1,0 +1,71 @@
+{
+  "selection_source": "https://arxiv.org/pdf/2208.10227",
+  "selection_table": 7,
+  "reference_source": "https://leria-info.univ-angers.fr/~jinkao.hao/papers/BenlicHaoMaxCut2012.pdf",
+  "reference_column": "Table 2 f_best (historical achieved cuts, not certified optima)",
+  "graphs": [
+    {
+      "graph": "G43",
+      "n": 1000,
+      "edges": 9990,
+      "reference": 6660,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G43"
+    },
+    {
+      "graph": "G44",
+      "n": 1000,
+      "edges": 9990,
+      "reference": 6650,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G44"
+    },
+    {
+      "graph": "G45",
+      "n": 1000,
+      "edges": 9990,
+      "reference": 6654,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G45"
+    },
+    {
+      "graph": "G46",
+      "n": 1000,
+      "edges": 9990,
+      "reference": 6649,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G46"
+    },
+    {
+      "graph": "G47",
+      "n": 1000,
+      "edges": 9990,
+      "reference": 6657,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G47"
+    },
+    {
+      "graph": "G51",
+      "n": 1000,
+      "edges": 5909,
+      "reference": 3848,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G51"
+    },
+    {
+      "graph": "G52",
+      "n": 1000,
+      "edges": 5916,
+      "reference": 3851,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G52"
+    },
+    {
+      "graph": "G53",
+      "n": 1000,
+      "edges": 5914,
+      "reference": 3850,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G53"
+    },
+    {
+      "graph": "G54",
+      "n": 1000,
+      "edges": 5916,
+      "reference": 3852,
+      "url": "https://web.stanford.edu/~yyye/yyye/Gset/G54"
+    }
+  ]
+}

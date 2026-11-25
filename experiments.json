@@ -1,0 +1,749 @@
+[
+  {
+    "name": "mc_random500_k10",
+    "problem": "MC",
+    "suites": [
+      "main"
+    ],
+    "module": "MC.evaluate",
+    "argv": [
+      "--checkpoint",
+      "MC/checkpoints/random500_k10_m50/final.pt",
+      "--data",
+      "MC/data/uniform/max_covering_500_test.pkl",
+      "--k",
+      "10",
+      "--seed",
+      "2026",
+      "--seed-protocol",
+      "instance",
+      "--trials",
+      "5",
+      "--warmup",
+      "3"
+    ],
+    "kind": "mc"
+  },
+  {
+    "name": "mc_random500_k50",
+    "problem": "MC",
+    "suites": [
+      "main"
+    ],
+    "module": "MC.evaluate",
+    "argv": [
+      "--checkpoint",
+      "MC/checkpoints/random500_k50_m50/final.pt",
+      "--data",
+      "MC/data/uniform/max_covering_500_test.pkl",
+      "--k",
+      "50",
+      "--seed",
+      "2026",
+      "--seed-protocol",
+      "instance",
+      "--trials",
+      "5",
+      "--warmup",
+      "3"
+    ],
+    "kind": "mc"
+  },
+  {
+    "name": "mc_random1000_k20",
+    "problem": "MC",
+    "suites": [
+      "main"
+    ],
+    "module": "MC.evaluate",
+    "argv": [
+      "--checkpoint",
+      "MC/checkpoints/random1000_k20_m50/final.pt",
+      "--data",
+      "MC/data/uniform/max_covering_1000_test.pkl",
+      "--k",
+      "20",
+      "--seed",
+      "2026",
+      "--seed-protocol",
+      "instance",
+      "--trials",
+      "5",
+      "--warmup",
+      "3"
+    ],
+    "kind": "mc"
+  },
+  {
+    "name": "mc_random1000_k100",
+    "problem": "MC",
+    "suites": [
+      "main"
+    ],
+    "module": "MC.evaluate",
+    "argv": [
+      "--checkpoint",
+      "MC/checkpoints/random1000_k100_m50/final.pt",
+      "--data",
+      "MC/data/uniform/max_covering_1000_test.pkl",
+      "--k",
+      "100",
+      "--seed",
+      "2026",
+      "--seed-protocol",
+      "instance",
+      "--trials",
+      "5",
+      "--warmup",
+      "3"
+    ],
+    "kind": "mc"
+  },
+  {
+    "name": "mc_random5000_k100",
+    "problem": "MC",
+    "suites": [
+      "large"
+    ],
+    "module": "MC.evaluate",
+    "argv": [
+      "--checkpoint",
+      "MC/checkpoints/random5000_k100_m200/final.pt",
+      "--data",
+      "MC/data/uniform/max_covering_5000_test.pkl",
+      "--k",
+      "100",
+      "--seed",
+      "2026",
+      "--seed-protocol",
+      "instance",
+      "--trials",
+      "5",
+      "--warmup",
+      "3"
+    ],
+    "kind": "mc"
+  },
+  {
+    "name": "mc_random5000_k500",
+    "problem": "MC",
+    "suites": [
+      "large"
+    ],
+    "module": "MC.evaluate",
+    "argv": [
+      "--checkpoint",
+      "MC/checkpoints/random5000_k500_m200/final.pt",
+      "--data",
+      "MC/data/uniform/max_covering_5000_test.pkl",
+      "--k",
+      "500",
+      "--seed",
+      "2026",
+      "--seed-protocol",
+      "instance",
+      "--trials",
+      "5",
+      "--warmup",
+      "3"
+    ],
+    "kind": "mc"
+  },
+  {
+    "name": "mc_random10000_k200",
+    "problem": "MC",
+    "suites": [
+      "large"
+    ],
+    "module": "MC.evaluate",
+    "argv": [
+      "--checkpoint",
+      "MC/checkpoints/random10000_k200_m200/final.pt",
+      "--data",
+      "MC/data/uniform/max_covering_10000_test.pkl",
+      "--k",
+      "200",
+      "--seed",
+      "2026",
+      "--seed-protocol",
+      "instance",
+      "--trials",
+      "5",
+      "--warmup",
+      "3"
+    ],
+    "kind": "mc"
+  },
+  {
+    "name": "mc_random10000_k1000",
+    "problem": "MC",
+    "suites": [
+      "large"
+    ],
+    "module": "MC.evaluate",
+    "argv": [
+      "--checkpoint",
+      "MC/checkpoints/random10000_k1000_m200/final.pt",
+      "--data",
+      "MC/data/uniform/max_covering_10000_test.pkl",
+      "--k",
+      "1000",
+      "--seed",
+      "2026",
+      "--seed-protocol",
+      "instance",
+      "--trials",
+      "5",
+      "--warmup",
+      "3"
+    ],
+    "kind": "mc"
+  },
+  {
+    "name": "mc_rail_k20",
+    "problem": "MC",
+    "suites": [
+      "main"
+    ],
+    "module": "MC.evaluate",
+    "argv": [
+      "--checkpoint",
+      "MC/checkpoints/random1000_k20_m50/final.pt",
+      "--data",
+      "MC/data/orlib/rail.data",
+      "--k",
+      "20",
+      "--seed",
+      "2026",
+      "--seed-protocol",
+      "instance",
+      "--trials",
+      "5",
+      "--warmup",
+      "3"
+    ],
+    "kind": "mc"
+  },
+  {
+    "name": "mc_rail_k50",
+    "problem": "MC",
+    "suites": [
+      "main"
+    ],
+    "module": "MC.evaluate",
+    "argv": [
+      "--checkpoint",
+      "MC/checkpoints/random1000_k20_m50/final.pt",
+      "--data",
+      "MC/data/orlib/rail.data",
+      "--k",
+      "50",
+      "--seed",
+      "2026",
+      "--seed-protocol",
+      "instance",
+      "--trials",
+      "5",
+      "--warmup",
+      "3"
+    ],
+    "kind": "mc"
+  },
+  {
+    "name": "mc_twitch_k20",
+    "problem": "MC",
+    "suites": [
+      "main"
+    ],
+    "module": "MC.evaluate",
+    "argv": [
+      "--checkpoint",
+      "MC/checkpoints/random500_k50_m50/final.pt",
+      "--data",
+      "MC/data/twitch/twitch.data",
+      "--k",
+      "20",
+      "--seed",
+      "2026",
+      "--seed-protocol",
+      "instance",
+      "--trials",
+      "5",
+      "--warmup",
+      "3"
+    ],
+    "kind": "mc"
+  },
+  {
+    "name": "mc_twitch_k50",
+    "problem": "MC",
+    "suites": [
+      "main"
+    ],
+    "module": "MC.evaluate",
+    "argv": [
+      "--checkpoint",
+      "MC/checkpoints/random500_k50_m50/final.pt",
+      "--data",
+      "MC/data/twitch/twitch.data",
+      "--k",
+      "50",
+      "--seed",
+      "2026",
+      "--seed-protocol",
+      "instance",
+      "--trials",
+      "5",
+      "--warmup",
+      "3"
+    ],
+    "kind": "mc"
+  },
+  {
+    "name": "mc_budget_m10",
+    "problem": "MC",
+    "suites": [
+      "budget"
+    ],
+    "module": "MC.evaluate",
+    "argv": [
+      "--checkpoint",
+      "MC/checkpoints/budget/mc1000_k20_m10/final.pt",
+      "--data",
+      "MC/data/uniform/max_covering_1000_test.pkl",
+      "--k",
+      "20",
+      "--seed",
+      "2026",
+      "--seed-protocol",
+      "trial",
+      "--trials",
+      "5",
+      "--warmup",
+      "3"
+    ],
+    "kind": "mc"
+  },
+  {
+    "name": "mc_budget_m30",
+    "problem": "MC",
+    "suites": [
+      "budget"
+    ],
+    "module": "MC.evaluate",
+    "argv": [
+      "--checkpoint",
+      "MC/checkpoints/budget/mc1000_k20_m30/final.pt",
+      "--data",
+      "MC/data/uniform/max_covering_1000_test.pkl",
+      "--k",
+      "20",
+      "--seed",
+      "2026",
+      "--seed-protocol",
+      "trial",
+      "--trials",
+      "5",
+      "--warmup",
+      "3"
+    ],
+    "kind": "mc"
+  },
+  {
+    "name": "mc_budget_m50",
+    "problem": "MC",
+    "suites": [
+      "budget"
+    ],
+    "module": "MC.evaluate",
+    "argv": [
+      "--checkpoint",
+      "MC/checkpoints/budget/mc1000_k20_m50/final.pt",
+      "--data",
+      "MC/data/uniform/max_covering_1000_test.pkl",
+      "--k",
+      "20",
+      "--seed",
+      "2026",
+      "--seed-protocol",
+      "trial",
+      "--trials",
+      "5",
+      "--warmup",
+      "3"
+    ],
+    "kind": "mc"
+  },
+  {
+    "name": "mc_budget_m100",
+    "problem": "MC",
+    "suites": [
+      "budget"
+    ],
+    "module": "MC.evaluate",
+    "argv": [
+      "--checkpoint",
+      "MC/checkpoints/budget/mc1000_k20_m100/final.pt",
+      "--data",
+      "MC/data/uniform/max_covering_1000_test.pkl",
+      "--k",
+      "20",
+      "--seed",
+      "2026",
+      "--seed-protocol",
+      "trial",
+      "--trials",
+      "5",
+      "--warmup",
+      "3"
+    ],
+    "kind": "mc"
+  },
+  {
+    "name": "mc_budget_m200",
+    "problem": "MC",
+    "suites": [
+      "budget"
+    ],
+    "module": "MC.evaluate",
+    "argv": [
+      "--checkpoint",
+      "MC/checkpoints/budget/mc1000_k20_m200/final.pt",
+      "--data",
+      "MC/data/uniform/max_covering_1000_test.pkl",
+      "--k",
+      "20",
+      "--seed",
+      "2026",
+      "--seed-protocol",
+      "trial",
+      "--trials",
+      "5",
+      "--warmup",
+      "3"
+    ],
+    "kind": "mc"
+  },
+  {
+    "name": "qap_m100",
+    "problem": "QAP",
+    "suites": [
+      "budget"
+    ],
+    "module": "QAP.evaluate_table",
+    "argv": [
+      "--checkpoint",
+      "QAP/checkpoints/m100/selected.pt",
+      "--samples",
+      "4",
+      "--trials",
+      "5",
+      "--precision",
+      "high"
+    ],
+    "kind": "qap"
+  },
+  {
+    "name": "qap_m200",
+    "problem": "QAP",
+    "suites": [
+      "budget"
+    ],
+    "module": "QAP.evaluate_table",
+    "argv": [
+      "--checkpoint",
+      "QAP/checkpoints/m200/selected.pt",
+      "--samples",
+      "4",
+      "--trials",
+      "5",
+      "--precision",
+      "high"
+    ],
+    "kind": "qap"
+  },
+  {
+    "name": "qap_m500",
+    "problem": "QAP",
+    "suites": [
+      "budget"
+    ],
+    "module": "QAP.evaluate_table",
+    "argv": [
+      "--checkpoint",
+      "QAP/checkpoints/m500/selected.pt",
+      "--samples",
+      "4",
+      "--trials",
+      "5",
+      "--precision",
+      "high"
+    ],
+    "kind": "qap"
+  },
+  {
+    "name": "qap_m1000",
+    "problem": "QAP",
+    "suites": [
+      "budget"
+    ],
+    "module": "QAP.evaluate_table",
+    "argv": [
+      "--checkpoint",
+      "QAP/checkpoints/m1000/selected.pt",
+      "--samples",
+      "4",
+      "--trials",
+      "5",
+      "--precision",
+      "high"
+    ],
+    "kind": "qap"
+  },
+  {
+    "name": "qap_m3000",
+    "problem": "QAP",
+    "suites": [
+      "budget"
+    ],
+    "module": "QAP.evaluate_table",
+    "argv": [
+      "--checkpoint",
+      "QAP/checkpoints/m3000/selected.pt",
+      "--samples",
+      "4",
+      "--trials",
+      "5",
+      "--precision",
+      "high"
+    ],
+    "kind": "qap"
+  },
+  {
+    "name": "qap_m5000",
+    "problem": "QAP",
+    "suites": [
+      "main",
+      "budget"
+    ],
+    "module": "QAP.evaluate_table",
+    "argv": [
+      "--checkpoint",
+      "QAP/checkpoints/m5000/selected.pt",
+      "--samples",
+      "4",
+      "--trials",
+      "5",
+      "--precision",
+      "high"
+    ],
+    "kind": "qap"
+  },
+  {
+    "name": "qap_m20000",
+    "problem": "QAP",
+    "suites": [
+      "budget"
+    ],
+    "module": "QAP.evaluate_table",
+    "argv": [
+      "--checkpoint",
+      "QAP/checkpoints/m20000/final.pt",
+      "--samples",
+      "4",
+      "--trials",
+      "5",
+      "--precision",
+      "highest"
+    ],
+    "kind": "qap"
+  },
+  {
+    "name": "maxcut_m200",
+    "problem": "MaxCut",
+    "suites": [
+      "budget"
+    ],
+    "module": "MaxCut.evaluate",
+    "argv": [
+      "--checkpoint",
+      "MaxCut/checkpoints/model/best.pt",
+      "--m",
+      "200"
+    ],
+    "kind": "maxcut"
+  },
+  {
+    "name": "maxcut_m500",
+    "problem": "MaxCut",
+    "suites": [
+      "budget"
+    ],
+    "module": "MaxCut.evaluate",
+    "argv": [
+      "--checkpoint",
+      "MaxCut/checkpoints/model/best.pt",
+      "--m",
+      "500"
+    ],
+    "kind": "maxcut"
+  },
+  {
+    "name": "maxcut_m1000",
+    "problem": "MaxCut",
+    "suites": [
+      "main",
+      "budget",
+      "learning"
+    ],
+    "module": "MaxCut.evaluate",
+    "argv": [
+      "--checkpoint",
+      "MaxCut/checkpoints/model/best.pt",
+      "--m",
+      "1000"
+    ],
+    "kind": "maxcut"
+  },
+  {
+    "name": "maxcut_m2000",
+    "problem": "MaxCut",
+    "suites": [
+      "budget"
+    ],
+    "module": "MaxCut.evaluate",
+    "argv": [
+      "--checkpoint",
+      "MaxCut/checkpoints/model/best.pt",
+      "--m",
+      "2000"
+    ],
+    "kind": "maxcut"
+  },
+  {
+    "name": "maxcut_m5000",
+    "problem": "MaxCut",
+    "suites": [
+      "budget"
+    ],
+    "module": "MaxCut.evaluate",
+    "argv": [
+      "--checkpoint",
+      "MaxCut/checkpoints/model/best.pt",
+      "--m",
+      "5000"
+    ],
+    "kind": "maxcut"
+  },
+  {
+    "name": "maxcut_untrained",
+    "problem": "MaxCut",
+    "suites": [
+      "learning"
+    ],
+    "module": "MaxCut.evaluate",
+    "argv": [
+      "--checkpoint",
+      "MaxCut/checkpoints/model/initial.pt",
+      "--m",
+      "1000"
+    ],
+    "kind": "maxcut"
+  },
+  {
+    "name": "dks_m100",
+    "problem": "DKS",
+    "suites": [
+      "main",
+      "budget"
+    ],
+    "module": "DKS.evaluate",
+    "argv": [
+      "--checkpoint",
+      "DKS/checkpoints/model/best.pt",
+      "--k",
+      "100",
+      "--m",
+      "100",
+      "--chunk",
+      "16",
+      "--seed",
+      "2026"
+    ],
+    "kind": "dks"
+  },
+  {
+    "name": "dks_m200",
+    "problem": "DKS",
+    "suites": [
+      "budget"
+    ],
+    "module": "DKS.evaluate",
+    "argv": [
+      "--checkpoint",
+      "DKS/checkpoints/model/best.pt",
+      "--k",
+      "100",
+      "--m",
+      "200",
+      "--chunk",
+      "16",
+      "--seed",
+      "2026"
+    ],
+    "kind": "dks"
+  },
+  {
+    "name": "dks_m500",
+    "problem": "DKS",
+    "suites": [
+      "budget"
+    ],
+    "module": "DKS.evaluate",
+    "argv": [
+      "--checkpoint",
+      "DKS/checkpoints/model/best.pt",
+      "--k",
+      "100",
+      "--m",
+      "500",
+      "--chunk",
+      "16",
+      "--seed",
+      "2026"
+    ],
+    "kind": "dks"
+  },
+  {
+    "name": "dks_m1000",
+    "problem": "DKS",
+    "suites": [
+      "main",
+      "budget"
+    ],
+    "module": "DKS.evaluate",
+    "argv": [
+      "--checkpoint",
+      "DKS/checkpoints/model/best.pt",
+      "--k",
+      "100",
+      "--m",
+      "1000",
+      "--chunk",
+      "16",
+      "--seed",
+      "42"
+    ],
+    "kind": "dks"
+  },
+  {
+    "name": "dks_learning",
+    "problem": "DKS",
+    "suites": [
+      "learning"
+    ],
+    "module": "DKS.evaluate_learning",
+    "argv": [],
+    "kind": "dks_learning"
+  }
+]
