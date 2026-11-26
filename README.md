@@ -1,4 +1,4 @@
-# Code Repository for paper "Fast Self-Supervised Neural Combinatorial Optimization with Constraints via Parallel Oracles"
+# Code Repository for paper "Fast Neural Combinatorial Optimization via Parallel Oracles"
 
 Code and trained checkpoints for MC, QAP, MaxCut and DKS.
 MC, QAP and MaxCut data are included. DKS graphs can be downloaded from SNAP using the commands in [DKS/README.md](DKS/README.md).
